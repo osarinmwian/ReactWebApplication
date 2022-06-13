@@ -1,8 +1,10 @@
 .gpt3__features{
     width: 100%;
     display: flex;
+
     justify-content: space-between;
     flex-direction: row;
+    flex-wrap: nowrap;
 
 }
 .gpt3__features-heading{
@@ -41,3 +43,5 @@ color: #FF8A71;
 .gpt3__features-container {
   margin-right: 4rem;
 }
+
+    

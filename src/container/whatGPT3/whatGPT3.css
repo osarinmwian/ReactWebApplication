@@ -1,26 +1,25 @@
 .gpt3__whatgpt3{
     display: flex;
     flex-direction: column;
-    padding:2rem;
+    padding:4rem;
     width: 1300px;
-    height: 450px;
+    margin-left: 50rem;
+    height: 600px;
     background: var(--color-footer);
     margin: 5em;
-  
-
-    /* ff 3.6+ */
+   
+   
     background:-moz-radial-gradient(circle at 100% 88%, rgba(25, 119, 223, 1) 0%, rgba(4, 12, 24, 1) 100%);
 
-    /* safari 5.1+,chrome 10+ */
+    
     background:-webkit-radial-gradient(circle at 100% 88%, rgba(25, 119, 223, 1) 0%, rgba(4, 12, 24, 1) 100%);
 
-    /* opera 11.10+ */
+    
     background:-o-radial-gradient(circle at 100% 88%, rgba(25, 119, 223, 1) 0%, rgba(4, 12, 24, 1) 100%);
 
-    /* ie 10+ */
+   
     background:-ms-radial-gradient(circle at 100% 88%, rgba(25, 119, 223, 1) 0%, rgba(4, 12, 24, 1) 100%);
 
-    /* global 92%+ browsers support */
     background:radial-gradient(circle at 100% 88%, rgba(25, 119, 223, 1) 0%, rgba(4, 12, 24, 1) 100%);
 
 }
@@ -33,12 +32,11 @@
 }
 .gpt3__whatgpt3-feature.gpt3__whatgpt3-feature-container__feature{
     max-width: 700px;
-
 }
 .gpt3__whatgpt3-heading{
     display: flex;
     justify-content: space-between;
-   flex-direction:row; 
+   flex-direction:row;
    margin: 4rem 0 2rem;
     align-items: center;
 }
@@ -61,15 +59,42 @@ background-clip: text;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 800;
+    margin-left:  2rem;
     font-size: 18px;
     line-height: 45px;
     color: #FF8A71 ;
 } 
 .gpt3__whatgpt3-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
     
 }
-.gpt3__whatgpt3-container text {
-    margin-right: 200rem;
+
+
+@media screen and (max-width: 390px){
+    .gpt3__whatgpt3{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+    .gpt3__whatgpt3-heading{
+        display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       justify-content: left;
+      
+    }
+    .gpt3__whatgpt3-container{
+        display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       justify-content: flex-start;
+       flex-wrap: wrap;
+    }
+
 }
+
+    
