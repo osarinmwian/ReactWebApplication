@@ -1,7 +1,5 @@
 .gpt3__blog-container_article{
     width: 100%;
-    height: 100%;
-    background: red;
     display: flex;
     flex-direction: column;
     background: var(--color-footer);
@@ -19,7 +17,6 @@
 .gpt3__blog-container_article_conrtent{
     display: flex;
     justify-content: space-between;
-    background: red;
     flex-direction: column;
     padding: 1rem 1.5rem;
     height: 100%;
@@ -30,8 +27,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 11.649px;
 line-height: 35px;
-background-color: red;
-color: #FFFFFF;
+
 
 }
 .gpt3__blog-container_article_conrtent h3{
@@ -40,8 +36,4 @@ font-style: normal;
 font-weight: 800;
 font-size: 25.11px;
 line-height: 30px;
-
-
-
-color: #FFFFFF;
 }
